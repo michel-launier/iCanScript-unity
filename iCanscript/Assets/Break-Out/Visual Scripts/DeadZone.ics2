@@ -1,0 +1,746 @@
+{
+  "Storage" : {
+    "IsEditorScript" : false,
+    "CSharpFileName" : "Water",
+    "BaseTypeOverride" : false,
+    "BaseType" : "UnityEngine.MonoBehaviour",
+    "SourceFileGUID" : "",
+    "MajorVersion" : 2,
+    "MinorVersion" : 0,
+    "BugFixVersion" : 26,
+    "DisplayRoot" : 0,
+    "SelectedObject" : 0,
+    "SelectedObjectPosition" : {
+      "x" : 325.1275,
+      "y" : 201.3647
+    },
+    "ShowDisplayRootNode" : true,
+    "GuiScale" : 1.071396,
+    "ScrollPosition" : {
+      "x" : -663.8102,
+      "y" : -256.6185
+    },
+    "UndoRedoId" : 160,
+    "EngineObjects" : [
+      {
+        "RawName" : "DeadZone",
+        "ObjectType" : {
+          "value__" : 0
+        },
+        "InstanceId" : 0,
+        "ParentId" : -1,
+        "QualifiedType" : "iCanScript.Internal.Engine.iCS_VisualScriptImp, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 811.5,
+          "y" : 317.5
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 100,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "OnTriggerEnter",
+        "ObjectType" : {
+          "value__" : 106
+        },
+        "InstanceId" : 1,
+        "ParentId" : 0,
+        "QualifiedType" : "UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : -519.4278,
+          "y" : -252.0111
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "Tell Game Manager that the ball has touched the dead zone.
+
+The Game Manger will decrease the plyer life and may declare
+game over.",
+        "LayoutPriority" : 100,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 2,
+        "ParentId" : 1,
+        "QualifiedType" : "UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 2
+        },
+        "SourceId" : -1,
+        "PortIndex" : 401,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "colliderInfo",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 3,
+        "ParentId" : 1,
+        "QualifiedType" : "UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0.001
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "Collision information.",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 2
+        },
+        "SourceId" : -1,
+        "PortIndex" : 0,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Find",
+        "ObjectType" : {
+          "value__" : 102
+        },
+        "InstanceId" : 4,
+        "ParentId" : 15,
+        "QualifiedType" : "UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : -212.6,
+          "y" : -17
+        },
+        "DisplayOption" : {
+          "value__" : 1
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "Find",
+        "NbOfParams" : 1,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 100,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "name",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 5,
+        "ParentId" : 4,
+        "QualifiedType" : "System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 40
+        },
+        "SourceId" : -1,
+        "PortIndex" : 0,
+        "InitialValueArchive" : "{12:InitialValue1:S2:GM}",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "GM",
+        "ObjectType" : {
+          "value__" : 301
+        },
+        "InstanceId" : 6,
+        "ParentId" : 4,
+        "QualifiedType" : "UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 2,
+          "y" : 0.9478184
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 10
+        },
+        "SourceId" : -1,
+        "PortIndex" : 400,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "GetComponent",
+        "ObjectType" : {
+          "value__" : 101
+        },
+        "InstanceId" : 7,
+        "ParentId" : 15,
+        "QualifiedType" : "UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 38.60004,
+          "y" : -2.000031
+        },
+        "DisplayOption" : {
+          "value__" : 1
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "GetComponent",
+        "NbOfParams" : 1,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 100,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 8,
+        "ParentId" : 7,
+        "QualifiedType" : "UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 10
+        },
+        "SourceId" : 6,
+        "PortIndex" : 401,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Self",
+        "ObjectType" : {
+          "value__" : 307
+        },
+        "InstanceId" : 9,
+        "ParentId" : 7,
+        "QualifiedType" : "UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 2,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 10
+        },
+        "SourceId" : -1,
+        "PortIndex" : 500,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "type",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 10,
+        "ParentId" : 7,
+        "QualifiedType" : "System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0.001
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 40
+        },
+        "SourceId" : -1,
+        "PortIndex" : 0,
+        "InitialValueArchive" : "{12:InitialValue1:S11:GameManager}",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Game Manager",
+        "ObjectType" : {
+          "value__" : 301
+        },
+        "InstanceId" : 11,
+        "ParentId" : 7,
+        "QualifiedType" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 2,
+          "y" : 1
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 21
+        },
+        "SourceId" : -1,
+        "PortIndex" : 400,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Lose Lives",
+        "ObjectType" : {
+          "value__" : 101
+        },
+        "InstanceId" : 12,
+        "ParentId" : 1,
+        "QualifiedType" : "iCanScriptExamples.BreakOut.GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 389.8328,
+          "y" : 149.2405
+        },
+        "DisplayOption" : {
+          "value__" : 1
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "LoseLives",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : -2,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 13,
+        "ParentId" : 12,
+        "QualifiedType" : "iCanScriptExamples.BreakOut.GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 21
+        },
+        "SourceId" : 19,
+        "PortIndex" : 401,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Self",
+        "ObjectType" : {
+          "value__" : 307
+        },
+        "InstanceId" : 14,
+        "ParentId" : 12,
+        "QualifiedType" : "iCanScriptExamples.BreakOut.GameManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 2,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 21
+        },
+        "SourceId" : -1,
+        "PortIndex" : 500,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Start",
+        "ObjectType" : {
+          "value__" : 106
+        },
+        "InstanceId" : 15,
+        "ParentId" : 0,
+        "QualifiedType" : "UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : -608.0001,
+          "y" : -112.5
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "Get a copy of the Game Manager.",
+        "LayoutPriority" : 100,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 300
+        },
+        "InstanceId" : 16,
+        "ParentId" : 15,
+        "QualifiedType" : "UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 2
+        },
+        "SourceId" : -1,
+        "PortIndex" : 401,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "",
+        "ObjectType" : {
+          "value__" : 10000
+        },
+        "InstanceId" : -1,
+        "ParentId" : -1,
+        "QualifiedType" : "",
+        "LocalAnchorPosition" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "",
+        "ObjectType" : {
+          "value__" : 10000
+        },
+        "InstanceId" : -1,
+        "ParentId" : -1,
+        "QualifiedType" : "",
+        "LocalAnchorPosition" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 302
+        },
+        "InstanceId" : 19,
+        "ParentId" : 1,
+        "QualifiedType" : "MyVisualScripts.Engine.GM, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 1,
+          "y" : 0.4913235
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 21
+        },
+        "SourceId" : 20,
+        "PortIndex" : 1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "Target",
+        "ObjectType" : {
+          "value__" : 303
+        },
+        "InstanceId" : 20,
+        "ParentId" : 15,
+        "QualifiedType" : "MyVisualScripts.Engine.GM, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "LocalAnchorPosition" : {
+          "x" : 2,
+          "y" : 0.8011395
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 21
+        },
+        "SourceId" : 11,
+        "PortIndex" : 0,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "",
+        "ObjectType" : {
+          "value__" : 10000
+        },
+        "InstanceId" : -1,
+        "ParentId" : -1,
+        "QualifiedType" : "",
+        "LocalAnchorPosition" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      },
+      {
+        "RawName" : "",
+        "ObjectType" : {
+          "value__" : 10000
+        },
+        "InstanceId" : -1,
+        "ParentId" : -1,
+        "QualifiedType" : "",
+        "LocalAnchorPosition" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "DisplayOption" : {
+          "value__" : 0
+        },
+        "NodeSpec" : {
+          "value__" : 1000
+        },
+        "MethodName" : "",
+        "NbOfParams" : 0,
+        "IconGUID" : "",
+        "Description" : "",
+        "LayoutPriority" : 0,
+        "PortSpec" : {
+          "value__" : 1000
+        },
+        "SourceId" : -1,
+        "PortIndex" : -1,
+        "InitialValueArchive" : "",
+        "IsEntryState" : false
+      }
+    ],
+    "NavigationHistory" : {
+      
+    }
+  }
+}

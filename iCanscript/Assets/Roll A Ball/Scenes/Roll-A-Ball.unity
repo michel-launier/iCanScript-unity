@@ -1,0 +1,6243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 512
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 0
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!4 &44106160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 4.41, y: 0.5, z: 1.99}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &49102812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598643810}
+  - component: {fileID: 49102817}
+  - component: {fileID: 49102816}
+  - component: {fileID: 49102815}
+  - component: {fileID: 49102814}
+  - component: {fileID: 49102813}
+  m_Layer: 0
+  m_Name: PickUp 7
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &49102813
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &49102814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &49102815
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &49102816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &49102817
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &118905317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118905318}
+  - component: {fileID: 118905321}
+  - component: {fileID: 118905320}
+  - component: {fileID: 118905319}
+  m_Layer: 0
+  m_Name: Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &118905318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118905317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 10}
+  m_LocalScale: {x: 20.5, y: 2, z: 0.49999997}
+  m_Children: []
+  m_Father: {fileID: 211042218}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &118905319
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118905317}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &118905320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118905317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &118905321
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118905317}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &147650698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147650699}
+  - component: {fileID: 147650702}
+  - component: {fileID: 147650701}
+  - component: {fileID: 147650700}
+  m_Layer: 0
+  m_Name: Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147650699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147650698}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -10, y: 0.5, z: 0}
+  m_LocalScale: {x: 20.5, y: 2, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 211042218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &147650700
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147650698}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &147650701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147650698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &147650702
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147650698}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &177669708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367491346}
+  - component: {fileID: 177669713}
+  - component: {fileID: 177669712}
+  - component: {fileID: 177669711}
+  - component: {fileID: 177669710}
+  - component: {fileID: 177669709}
+  m_Layer: 0
+  m_Name: PickUp 11
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &177669709
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &177669710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &177669711
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &177669712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &177669713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &198739404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: -5.27, y: 0.5, z: -0.51}
+  m_LocalScale: {x: 0.49999988, y: 0.50000036, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &211042217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211042218}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &211042218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211042217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 147650699}
+  - {fileID: 516216170}
+  - {fileID: 118905318}
+  - {fileID: 514993389}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &247499917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842276393}
+  - component: {fileID: 247499922}
+  - component: {fileID: 247499921}
+  - component: {fileID: 247499920}
+  - component: {fileID: 247499919}
+  - component: {fileID: 247499918}
+  m_Layer: 0
+  m_Name: PickUp 6
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &247499918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &247499919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &247499920
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &247499921
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &247499922
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &265065221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 3.06, y: 0.5, z: 3.81}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &280031872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280031876}
+  - component: {fileID: 280031875}
+  - component: {fileID: 280031873}
+  - component: {fileID: 280031878}
+  - component: {fileID: 280031874}
+  - component: {fileID: 280031877}
+  - component: {fileID: 280031879}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &280031873
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9b75c26b0b8339f4cb9ed682799e76c9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &280031874
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &280031875
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &280031876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &280031877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a92a731f5194ed3bb6adfc09234bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsEditorScript: 0
+  CSharpFileName: Player
+  BaseTypeOverride: 0
+  BaseType: UnityEngine.MonoBehaviour
+  SourceFileGUID: 
+  MajorVersion: 2
+  MinorVersion: 0
+  BugFixVersion: 26
+  DisplayRoot: 0
+  SelectedObject: 37
+  SelectedObjectPosition: {x: -13.492065, y: 361.39307}
+  ShowDisplayRootNode: 1
+  GuiScale: 0.8792266
+  ScrollPosition: {x: -767.86414, y: 589.15497}
+  UndoRedoId: 1717
+  EngineObjects:
+  - RawName: Player
+    ObjectType: 0
+    InstanceId: 0
+    ParentId: -1
+    QualifiedType: iCanScript.Internal.Engine.iCS_VisualScriptImp, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 764.5, y: 257}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: FixedUpdate
+    ObjectType: 106
+    InstanceId: 1
+    ParentId: 0
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 17.891602, y: -161.51996}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 'Computes the new position of the ball on the physic
+
+      update
+      tick.'
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 2
+    ParentId: 1
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.030285053}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 2
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: GetAxis
+    ObjectType: 102
+    InstanceId: 3
+    ParentId: 6
+    QualifiedType: UnityEngine.Input, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -740.1482, y: 246.16821}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: GetAxis
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 65
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: get_horizontal
+    ObjectType: 300
+    InstanceId: 4
+    ParentId: 3
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.00000079749776}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S10:Horizontal}'
+    IsEntryState: 0
+  - RawName: Horizontal
+    ObjectType: 301
+    InstanceId: 5
+    ParentId: 3
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0.2661205}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: PlayerMovement
+    ObjectType: 1
+    InstanceId: 6
+    ParentId: 1
+    QualifiedType: iCanScript.Internal.Engine.iCS_Package, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 121.76456, y: 81.44656}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: GetAxis
+    ObjectType: 102
+    InstanceId: 7
+    ParentId: 6
+    QualifiedType: UnityEngine.Input, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -752.07434, y: 336.36823}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: GetAxis
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 65
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Get Vertical
+    ObjectType: 300
+    InstanceId: 8
+    ParentId: 7
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.00000079749776}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S8:Vertical}'
+    IsEntryState: 0
+  - RawName: Vertical
+    ObjectType: 301
+    InstanceId: 9
+    ParentId: 7
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0.2661226}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: operator *
+    ObjectType: 102
+    InstanceId: 10
+    ParentId: 6
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -297.18268, y: 196.14392}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_Multiply
+    NbOfParams: 2
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Speed
+    ObjectType: 300
+    InstanceId: 11
+    ParentId: 10
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 37
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:f1:0}'
+    IsEntryState: 0
+  - RawName: a
+    ObjectType: 300
+    InstanceId: 12
+    ParentId: 10
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.742678}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 42
+    PortIndex: 1
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: op_Multiply
+    ObjectType: 301
+    InstanceId: 13
+    ParentId: 10
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: AddForce
+    ObjectType: 101
+    InstanceId: 16
+    ParentId: 6
+    QualifiedType: UnityEngine.Rigidbody, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -80.094055, y: 133.72906}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: AddForce
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 17
+    ParentId: 16
+    QualifiedType: UnityEngine.Rigidbody, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 20
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 18
+    ParentId: 16
+    QualifiedType: UnityEngine.Rigidbody, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: force
+    ObjectType: 300
+    InstanceId: 19
+    ParentId: 16
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 13
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 302
+    InstanceId: 20
+    ParentId: 6
+    QualifiedType: UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.052297354}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 21
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 302
+    InstanceId: 21
+    ParentId: 1
+    QualifiedType: UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.15883103}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 22
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Output
+    ObjectType: 303
+    InstanceId: 22
+    ParentId: 23
+    QualifiedType: UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.34529886}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 30
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Start
+    ObjectType: 106
+    InstanceId: 23
+    ParentId: 0
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -1339.8359, y: -63.68701}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 'Find the reference to our rigidbody for later use
+
+      and displays
+      the initial number of collected objects.'
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 24
+    ParentId: 23
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.16961901}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 2
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Operator++
+    ObjectType: 1
+    InstanceId: 25
+    ParentId: 43
+    QualifiedType: iCanScript.Internal.Engine.iCS_Package, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 140.07452, y: 75.42482}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: GetComponent
+    ObjectType: 101
+    InstanceId: 26
+    ParentId: 23
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 102.52806, y: 85.11803}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: GetComponent
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 27
+    ParentId: 26
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 28
+    ParentId: 26
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: type
+    ObjectType: 300
+    InstanceId: 29
+    ParentId: 26
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S9:Rigidbody}'
+    IsEntryState: 0
+  - RawName: Rigidbody
+    ObjectType: 301
+    InstanceId: 30
+    ParentId: 26
+    QualifiedType: UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.8366405}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: enable
+    ObjectType: 308
+    InstanceId: 31
+    ParentId: 69
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 50
+    SourceId: 76
+    PortIndex: 1001
+    InitialValueArchive: '{12:InitialValue1:b1:T}'
+    IsEntryState: 0
+  - RawName: youWinText
+    ObjectType: 302
+    InstanceId: 32
+    ParentId: 70
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.8351841}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: operator +
+    ObjectType: 102
+    InstanceId: 34
+    ParentId: 70
+    QualifiedType: CSharp.Primitives.String, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -87.36603, y: 2.355667}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_Addition
+    NbOfParams: 2
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: a
+    ObjectType: 300
+    InstanceId: 35
+    ParentId: 34
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S7:Score: }'
+    IsEntryState: 0
+  - RawName: b
+    ObjectType: 300
+    InstanceId: 36
+    ParentId: 34
+    QualifiedType: System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 102
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Speed
+    ObjectType: 302
+    InstanceId: 37
+    ParentId: 6
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.31203604}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: The acceleration factor of the ball.
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:f2:10}'
+    IsEntryState: 0
+  - RawName: movement
+    ObjectType: 100
+    InstanceId: 38
+    ParentId: 6
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -510.98526, y: 274.39096}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: .ctor
+    NbOfParams: 3
+    IconGUID: 57f8552ca6192465588f9cfc7a32a4ff
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: x
+    ObjectType: 300
+    InstanceId: 39
+    ParentId: 38
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 5
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:f1:0}'
+    IsEntryState: 0
+  - RawName: y
+    ObjectType: 300
+    InstanceId: 40
+    ParentId: 38
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.40446636}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 1
+    InitialValueArchive: '{12:InitialValue1:f1:0}'
+    IsEntryState: 0
+  - RawName: z
+    ObjectType: 300
+    InstanceId: 41
+    ParentId: 38
+    QualifiedType: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 9
+    PortIndex: 2
+    InitialValueArchive: '{12:InitialValue1:f1:0}'
+    IsEntryState: 0
+  - RawName: movement
+    ObjectType: 301
+    InstanceId: 42
+    ParentId: 38
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: OnTriggerEnter
+    ObjectType: 106
+    InstanceId: 43
+    ParentId: 0
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -798.156, y: 619.444}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 'This function is called when a collision is detected.  We first
+
+      verify
+      if the object with whom we collided was ''pickup'' object
+
+      and if so
+      we remove it and increment the count of
+
+      collected objects.'
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 44
+    ParentId: 43
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 2
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: colliderInfo
+    ObjectType: 300
+    InstanceId: 45
+    ParentId: 43
+    QualifiedType: UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.20182069}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 'Provides a description of the object in
+
+      collision.'
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Compare Tag
+    ObjectType: 101
+    InstanceId: 46
+    ParentId: 43
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -115.24487, y: -32.90193}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: CompareTag
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: tag
+    ObjectType: 300
+    InstanceId: 47
+    ParentId: 46
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S6:pickup}'
+    IsEntryState: 0
+  - RawName: CompareTag
+    ObjectType: 301
+    InstanceId: 48
+    ParentId: 46
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 49
+    ParentId: 46
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 59
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 50
+    ParentId: 46
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: get_gameObject
+    ObjectType: 101
+    InstanceId: 51
+    ParentId: 43
+    QualifiedType: UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -356.19772, y: 14.812881}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: get_gameObject
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 52
+    ParentId: 51
+    QualifiedType: UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 45
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 53
+    ParentId: 51
+    QualifiedType: UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: SetActive
+    ObjectType: 101
+    InstanceId: 54
+    ParentId: 43
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -146.49626, y: 69.67447}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: SetActive
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 55
+    ParentId: 54
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 59
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 56
+    ParentId: 54
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.0010000692}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: value
+    ObjectType: 300
+    InstanceId: 57
+    ParentId: 54
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.002}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:b1:F}'
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 303
+    InstanceId: 58
+    ParentId: 25
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0.10784191}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 91
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: collider
+    ObjectType: 301
+    InstanceId: 59
+    ParentId: 51
+    QualifiedType: UnityEngine.GameObject, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: enable
+    ObjectType: 308
+    InstanceId: 60
+    ParentId: 25
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 3, y: 0.50000006}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 50
+    SourceId: 48
+    PortIndex: 1001
+    InitialValueArchive: '{12:InitialValue1:b1:T}'
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 302
+    InstanceId: 61
+    ParentId: 25
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.25244847}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 86
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: trigger
+    ObjectType: 309
+    InstanceId: 62
+    ParentId: 88
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 4, y: 0.5}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 1000
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: set_text
+    ObjectType: 101
+    InstanceId: 63
+    ParentId: 70
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 126.01163, y: 7.1249084}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: set_text
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 64
+    ParentId: 63
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 87
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 65
+    ParentId: 63
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: countText
+    ObjectType: 300
+    InstanceId: 66
+    ParentId: 63
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 93
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Set Count
+    ObjectType: 101
+    InstanceId: 67
+    ParentId: 25
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 9.360779, y: 239.18109}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: SetCount
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: operator >=
+    ObjectType: 102
+    InstanceId: 68
+    ParentId: 70
+    QualifiedType: CSharp.Primitives.Int, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -85.905975, y: 136.51254}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_GreaterThanOrEqual
+    NbOfParams: 2
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: set_text
+    ObjectType: 101
+    InstanceId: 69
+    ParentId: 70
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 114.50372, y: 146.84692}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: set_text
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 1
+    InstanceId: 70
+    ParentId: 73
+    QualifiedType: iCanScript.Internal.Engine.iCS_Package, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 203.25183, y: 46.389145}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 71
+    ParentId: 69
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 32
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 72
+    ParentId: 69
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: SetCount
+    ObjectType: 1
+    InstanceId: 73
+    ParentId: 0
+    QualifiedType: iCanScript.Internal.Engine.iCS_Package, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: -295.06363, y: 622.78406}
+    DisplayOption: 0
+    NodeSpec: 400
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 'Displays the number of object collected thus far and
+
+      verifies
+      for end of game condition.
+
+'
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: value
+    ObjectType: 300
+    InstanceId: 74
+    ParentId: 68
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 102
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:i1:0}'
+    IsEntryState: 0
+  - RawName: bias
+    ObjectType: 300
+    InstanceId: 75
+    ParentId: 68
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 1
+    InitialValueArchive: '{12:InitialValue1:i2:12}'
+    IsEntryState: 0
+  - RawName: op_GreaterThanOrEqual
+    ObjectType: 301
+    InstanceId: 76
+    ParentId: 68
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 77
+    ParentId: 67
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 78
+    ParentId: 67
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: enable
+    ObjectType: 308
+    InstanceId: 79
+    ParentId: 67
+    QualifiedType: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 3, y: 0.5}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 50
+    SourceId: 62
+    PortIndex: 1001
+    InitialValueArchive: '{12:InitialValue1:b1:T}'
+    IsEntryState: 0
+  - RawName: Set Count
+    ObjectType: 101
+    InstanceId: 80
+    ParentId: 23
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 107.92088, y: 191.74564}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: SetCount
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 81
+    ParentId: 80
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 82
+    ParentId: 80
+    QualifiedType: iCanScriptExamples.RollABall.Player, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Count
+    ObjectType: 100
+    InstanceId: 84
+    ParentId: 43
+    QualifiedType: CSharp.Primitives.Int, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -217.31458, y: 176.67787}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: .ctor
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: value
+    ObjectType: 300
+    InstanceId: 85
+    ParentId: 84
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:i1:0}'
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 301
+    InstanceId: 86
+    ParentId: 84
+    QualifiedType: CSharp.Primitives.Int, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: countText
+    ObjectType: 302
+    InstanceId: 87
+    ParentId: 70
+    QualifiedType: UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.41102165}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: operator ++
+    ObjectType: 101
+    InstanceId: 88
+    ParentId: 25
+    QualifiedType: CSharp.Primitives.Int, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -2.2425232, y: 107.14647}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_Increment
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: op_Increment
+    ObjectType: 301
+    InstanceId: 89
+    ParentId: 88
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 90
+    ParentId: 88
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 61
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 91
+    ParentId: 88
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: youWinText
+    ObjectType: 300
+    InstanceId: 92
+    ParentId: 69
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 40
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue1:S8:You Won!}'
+    IsEntryState: 0
+  - RawName: op_Addition
+    ObjectType: 301
+    InstanceId: 93
+    ParentId: 34
+    QualifiedType: System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: B
+    ObjectType: 302
+    InstanceId: 102
+    ParentId: 70
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.51270115}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 103
+    PortIndex: 2
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: B
+    ObjectType: 306
+    InstanceId: 103
+    ParentId: 73
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 1, y: 0.52356374}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 104
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 303
+    InstanceId: 104
+    ParentId: 43
+    QualifiedType: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    LocalAnchorPosition: {x: 2, y: 0.42077005}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 58
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  EngineObject:
+    RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+--- !u!54 &280031878
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &280031879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280031872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16f4676c0d0a44548bb97d011440d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
+  speed: 10
+  countText: {fileID: 2091594866}
+  youWinText: {fileID: 1714874418}
+--- !u!1 &348237848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511142024}
+  - component: {fileID: 348237853}
+  - component: {fileID: 348237852}
+  - component: {fileID: 348237851}
+  - component: {fileID: 348237850}
+  - component: {fileID: 348237849}
+  m_Layer: 0
+  m_Name: PickUp 1
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &348237849
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &348237850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &348237851
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &348237852
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &348237853
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &367491346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177669708}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 1.24, y: 0.5, z: 4.43}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &486977480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900580521}
+  - component: {fileID: 486977485}
+  - component: {fileID: 486977484}
+  - component: {fileID: 486977483}
+  - component: {fileID: 486977482}
+  - component: {fileID: 486977481}
+  m_Layer: 0
+  m_Name: PickUp 8
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &486977481
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &486977482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &486977483
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &486977484
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &486977485
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &511142024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348237848}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: -3.19, y: 0.5, z: 3.91}
+  m_LocalScale: {x: 0.4999999, y: 0.5000001, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &514993385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 514993389}
+  - component: {fileID: 514993388}
+  - component: {fileID: 514993387}
+  - component: {fileID: 514993386}
+  m_Layer: 0
+  m_Name: Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &514993386
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514993385}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &514993387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514993385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &514993388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514993385}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &514993389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514993385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: -10}
+  m_LocalScale: {x: 20.5, y: 2, z: 0.49999997}
+  m_Children: []
+  m_Father: {fileID: 211042218}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &516216169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516216170}
+  - component: {fileID: 516216173}
+  - component: {fileID: 516216172}
+  - component: {fileID: 516216171}
+  m_Layer: 0
+  m_Name: Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516216170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516216169}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 10, y: 0.5, z: 0}
+  m_LocalScale: {x: 20.5, y: 2, z: 0.49999997}
+  m_Children: []
+  m_Father: {fileID: 211042218}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &516216171
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516216169}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &516216172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516216169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &516216173
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516216169}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &521225789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: -4.65, y: 0.5, z: 2.09}
+  m_LocalScale: {x: 0.49999988, y: 0.50000024, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &586667872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1213761095}
+    m_Modifications:
+    - target: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_TagString
+      value: pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.850000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.48000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .844623208
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .461939812
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .191341713
+      objectReference: {fileID: 0}
+    - target: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .191341713
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402804, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: BugFixVersion
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402804, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: SelectedObjectPosition.x
+      value: 808
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402804, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: SelectedObjectPosition.y
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402804, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+      propertyPath: EngineObjects.Array.data[0].QualifiedType
+      value: iCanScript.Internal.Engine.iCS_VisualScriptImp, iCanScriptEngine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ade80b4fc3d2caf4c9d9035b2227e5cc, type: 3}
+--- !u!1 &586667873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 586667872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &586667874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586667873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &618477799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 618477803}
+  - component: {fileID: 618477802}
+  - component: {fileID: 618477801}
+  - component: {fileID: 618477800}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &618477800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618477799}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 84d8df8a423ebe143aa6a82119924727, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &618477801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618477799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &618477802
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618477799}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &618477803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618477799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &717077932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1053847928}
+  - component: {fileID: 717077937}
+  - component: {fileID: 717077936}
+  - component: {fileID: 717077935}
+  - component: {fileID: 717077934}
+  - component: {fileID: 717077933}
+  m_Layer: 0
+  m_Name: PickUp 4
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &717077933
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &717077934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &717077935
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &717077936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &717077937
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &798058768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265065221}
+  - component: {fileID: 798058773}
+  - component: {fileID: 798058772}
+  - component: {fileID: 798058771}
+  - component: {fileID: 798058770}
+  - component: {fileID: 798058769}
+  m_Layer: 0
+  m_Name: PickUp 10
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &798058769
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &798058770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &798058771
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &798058772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &798058773
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798058768}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &888582720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: -1.47, y: 0.5, z: -4.56}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &910773937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198739404}
+  - component: {fileID: 910773942}
+  - component: {fileID: 910773941}
+  - component: {fileID: 910773940}
+  - component: {fileID: 910773939}
+  - component: {fileID: 910773938}
+  m_Layer: 0
+  m_Name: PickUp 3
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &910773938
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &910773939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &910773940
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &910773941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &910773942
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910773937}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1053847928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717077932}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: -4.07, y: 0.5, z: -3.21}
+  m_LocalScale: {x: 0.49999988, y: 0.5000005, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1193405808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193405813}
+  - component: {fileID: 1193405812}
+  - component: {fileID: 1193405810}
+  - component: {fileID: 1193405809}
+  - component: {fileID: 1193405814}
+  - component: {fileID: 1193405815}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1193405809
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_Enabled: 1
+--- !u!124 &1193405810
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_Enabled: 1
+--- !u!20 &1193405812
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1193405813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_LocalRotation: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1193405814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a92a731f5194ed3bb6adfc09234bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsEditorScript: 0
+  CSharpFileName: MainCamera
+  BaseTypeOverride: 0
+  BaseType: UnityEngine.MonoBehaviour
+  SourceFileGUID: 
+  MajorVersion: 2
+  MinorVersion: 0
+  BugFixVersion: 26
+  DisplayRoot: 0
+  SelectedObject: 38
+  SelectedObjectPosition: {x: 658.16113, y: 331.0589}
+  ShowDisplayRootNode: 1
+  GuiScale: 0.95101184
+  ScrollPosition: {x: -469.05936, y: -264.0967}
+  UndoRedoId: 1138
+  EngineObjects:
+  - RawName: MainCamera
+    ObjectType: 0
+    InstanceId: 0
+    ParentId: -1
+    QualifiedType: iCanScript.Internal.Engine.iCS_VisualScriptImp, iCanScriptEngine,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 722, y: 257}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: playerPosition
+    ObjectType: 1
+    InstanceId: 1
+    ParentId: 3
+    QualifiedType: iCanScript.Internal.Engine.iCS_Package, iCanScriptEngine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 108.68269, y: 13}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: get_position
+    ObjectType: 101
+    InstanceId: 2
+    ParentId: 1
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -3.5, y: 26.499998}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: get_position
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 74
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Start
+    ObjectType: 106
+    InstanceId: 3
+    ParentId: 0
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -880.80804, y: -32.054565}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 4
+    ParentId: 3
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.21703479}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 2
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 5
+    ParentId: 2
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: 8
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 6
+    ParentId: 2
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: position
+    ObjectType: 301
+    InstanceId: 7
+    ParentId: 2
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Player
+    ObjectType: 302
+    InstanceId: 8
+    ParentId: 1
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.6649854}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 20
+    SourceId: -1
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: get_position
+    ObjectType: 101
+    InstanceId: 9
+    ParentId: 1
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: -5.3449554, y: -75.00001}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: get_position
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 74
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 10
+    ParentId: 9
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 11
+    ParentId: 9
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: position
+    ObjectType: 301
+    InstanceId: 12
+    ParentId: 9
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: operator -
+    ObjectType: 102
+    InstanceId: 13
+    ParentId: 1
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 217.74168, y: -19.797668}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_Subtraction
+    NbOfParams: 2
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: a
+    ObjectType: 300
+    InstanceId: 14
+    ParentId: 13
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 12
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: b
+    ObjectType: 300
+    InstanceId: 15
+    ParentId: 13
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 7
+    PortIndex: 1
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: offset
+    ObjectType: 301
+    InstanceId: 16
+    ParentId: 13
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: LateUpdate
+    ObjectType: 106
+    InstanceId: 17
+    ParentId: 0
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 166.24432, y: -136.50179}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 18
+    ParentId: 17
+    QualifiedType: UnityEngine.MonoBehaviour, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 2
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: set_position
+    ObjectType: 101
+    InstanceId: 19
+    ParentId: 17
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 435.63367, y: 5.7366333}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: set_position
+    NbOfParams: 1
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 20
+    ParentId: 19
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 21
+    ParentId: 19
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Position
+    ObjectType: 300
+    InstanceId: 22
+    ParentId: 19
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 26
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: operator +
+    ObjectType: 102
+    InstanceId: 23
+    ParentId: 17
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 213.51537, y: 73.0343}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: op_Addition
+    NbOfParams: 2
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: a
+    ObjectType: 300
+    InstanceId: 24
+    ParentId: 23
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 1}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: 37
+    PortIndex: 0
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: b
+    ObjectType: 300
+    InstanceId: 25
+    ParentId: 23
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 31
+    PortIndex: 1
+    InitialValueArchive: '{12:InitialValue2:v35:0,0,0}'
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 301
+    InstanceId: 26
+    ParentId: 23
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: B
+    ObjectType: 302
+    InstanceId: 31
+    ParentId: 17
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.42928755}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 33
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Offset
+    ObjectType: 303
+    InstanceId: 32
+    ParentId: 1
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.48005742}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 16
+    PortIndex: 1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Offset
+    ObjectType: 303
+    InstanceId: 33
+    ParentId: 3
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.48869812}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 21
+    SourceId: 32
+    PortIndex: 0
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: get_position
+    ObjectType: 101
+    InstanceId: 34
+    ParentId: 17
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 24.315369, y: 150.58252}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: get_position
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 35
+    ParentId: 34
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0.75784695}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: 39
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 36
+    ParentId: 34
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: position
+    ObjectType: 301
+    InstanceId: 37
+    ParentId: 34
+    QualifiedType: UnityEngine.Vector3, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 10
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Get Player
+    ObjectType: 103
+    InstanceId: 38
+    ParentId: 17
+    QualifiedType: iCanScriptExamples.RollABall.MainCamera, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: -230.08319, y: 210.56068}
+    DisplayOption: 1
+    NodeSpec: 1000
+    MethodName: player
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 100
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: player
+    ObjectType: 301
+    InstanceId: 39
+    ParentId: 38
+    QualifiedType: UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: 400
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Target
+    ObjectType: 300
+    InstanceId: 40
+    ParentId: 38
+    QualifiedType: iCanScriptExamples.RollABall.MainCamera, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 1, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 401
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: Self
+    ObjectType: 307
+    InstanceId: 41
+    ParentId: 38
+    QualifiedType: iCanScriptExamples.RollABall.MainCamera, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    LocalAnchorPosition: {x: 2, y: 0.001}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 60
+    SourceId: -1
+    PortIndex: 500
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  - RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+  EngineObject:
+    RawName: 
+    ObjectType: 10000
+    InstanceId: -1
+    ParentId: -1
+    QualifiedType: 
+    LocalAnchorPosition: {x: 0, y: 0}
+    DisplayOption: 0
+    NodeSpec: 1000
+    MethodName: 
+    NbOfParams: 0
+    IconGUID: 
+    Description: 
+    LayoutPriority: 0
+    PortSpec: 1000
+    SourceId: -1
+    PortIndex: -1
+    InitialValueArchive: 
+    IsEntryState: 0
+--- !u!114 &1193405815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193405808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e544155fcf8144da49e7b28ee2b82245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 280031876}
+--- !u!1 &1203354903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203354907}
+  - component: {fileID: 1203354906}
+  - component: {fileID: 1203354905}
+  - component: {fileID: 1203354904}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1203354904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203354903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &1203354905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203354903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1203354906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203354903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1203354907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203354903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1213761094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213761095}
+  m_Layer: 0
+  m_Name: pickups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213761095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213761094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1830189967}
+  - {fileID: 521225789}
+  - {fileID: 511142024}
+  - {fileID: 198739404}
+  - {fileID: 1053847928}
+  - {fileID: 1842276393}
+  - {fileID: 888582720}
+  - {fileID: 1598643810}
+  - {fileID: 1900580521}
+  - {fileID: 44106160}
+  - {fileID: 265065221}
+  - {fileID: 367491346}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497814527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521225789}
+  - component: {fileID: 1497814532}
+  - component: {fileID: 1497814531}
+  - component: {fileID: 1497814530}
+  - component: {fileID: 1497814529}
+  - component: {fileID: 1497814528}
+  m_Layer: 0
+  m_Name: PickUp 2
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1497814528
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1497814529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1497814530
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1497814531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1497814532
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497814527}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1598643810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49102812}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 3.78, y: 0.5, z: -3.1}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1714874416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714874417}
+  - component: {fileID: 1714874419}
+  - component: {fileID: 1714874418}
+  m_Layer: 5
+  m_Name: youWinText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1714874417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714874416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1796768818}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 75}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1714874418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714874416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 70
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1714874419
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714874416}
+  m_CullTransparentMesh: 0
+--- !u!1 &1725022038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1725022040}
+  - component: {fileID: 1725022039}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1725022039
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725022038}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.802082
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1725022040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725022038}
+  m_LocalRotation: {x: 0.36599818, y: 0.45315394, z: -0.21130918, w: 0.7848855}
+  m_LocalPosition: {x: 0, y: 300, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1796768817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1796768818}
+  - component: {fileID: 1796768821}
+  - component: {fileID: 1796768820}
+  - component: {fileID: 1796768819}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1796768818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796768817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2091594868}
+  - {fileID: 1714874417}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1796768819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796768817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1796768820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796768817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1796768821
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796768817}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!4 &1830189967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 586667872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1842276393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247499917}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 1.44, y: 0.5, z: -4.66}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1900580521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 468250, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486977480}
+  m_LocalRotation: {x: 0.4619398, y: 0.19134171, z: 0.19134171, w: 0.8446232}
+  m_LocalPosition: {x: 4.72, y: 0.5, z: -0.66}
+  m_LocalScale: {x: 0.49999988, y: 0.5000006, z: 0.49999994}
+  m_Children: []
+  m_Father: {fileID: 1213761095}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1912629434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44106160}
+  - component: {fileID: 1912629439}
+  - component: {fileID: 1912629438}
+  - component: {fileID: 1912629437}
+  - component: {fileID: 1912629436}
+  - component: {fileID: 1912629435}
+  m_Layer: 0
+  m_Name: PickUp 9
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1912629435
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1912629436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1912629437
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1912629438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1912629439
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912629434}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1935266435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 173438, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888582720}
+  - component: {fileID: 1935266440}
+  - component: {fileID: 1935266439}
+  - component: {fileID: 1935266438}
+  - component: {fileID: 1935266437}
+  - component: {fileID: 1935266436}
+  m_Layer: 0
+  m_Name: PickUp 5
+  m_TagString: pickup
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1935266436
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5420206, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1935266437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11426602, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fa0b9c75f0c47c6bfc2a017104e2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1935266438
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2326506, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8682686c5921c77499ed06123cde732b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1935266439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6585068, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1935266440
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3310244, guid: ade80b4fc3d2caf4c9d9035b2227e5cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935266435}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2091594865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091594868}
+  - component: {fileID: 2091594867}
+  - component: {fileID: 2091594866}
+  m_Layer: 5
+  m_Name: CountText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2091594866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091594865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 14
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Score: 0'
+--- !u!222 &2091594867
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091594865}
+  m_CullTransparentMesh: 0
+--- !u!224 &2091594868
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091594865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1796768818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 10, y: -10}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0, y: 1}

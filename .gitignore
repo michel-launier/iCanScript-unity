@@ -1,2 +1,8 @@
 .DS_Store
 
+iCanscript/Library/
+/iCanscript/Logs
+/iCanscript/Packages
+/iCanscript/ProjectSettings
+/iCanscript/Temp
+/iCanscript/.idea

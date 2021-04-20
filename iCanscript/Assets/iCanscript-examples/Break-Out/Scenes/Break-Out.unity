@@ -396,7 +396,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455403477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd55284146ea4dc185f7c70546da507, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e8deb27eead34c139a6cf8edbaf661f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &455403483
@@ -418,14 +418,14 @@ MonoBehaviour:
   SourceFileGUID: 
   MajorVersion: 2
   MinorVersion: 0
-  BugFixVersion: 26
+  BugFixVersion: 28
   DisplayRoot: 0
-  SelectedObject: 1
-  SelectedObjectPosition: {x: 642.38, y: 214.7294}
+  SelectedObject: 0
+  SelectedObjectPosition: {x: 311.8775, y: 201.3647}
   ShowDisplayRootNode: 1
   GuiScale: 1.0713964
   ScrollPosition: {x: -365.60153, y: -165.05524}
-  UndoRedoId: 158
+  UndoRedoId: 160
   EngineObjects:
   - RawName: DeadZone
     ObjectType: 0
@@ -1617,17 +1617,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123451024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebb17dfdc911e43938c9eb2432a14aa6, type: 3}
+  m_Script: {fileID: 11500000, guid: 85a17d6362220448d8702016d5480b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
   bricks: 20
-  livesText: {fileID: 774700590}
-  gameOverText: {fileID: 406870044}
-  youWonText: {fileID: 775735322}
-  bricksPrefab: {fileID: 120544, guid: 70d7b4181d064c542b7d503f002acccf, type: 3}
-  deathParticles: {fileID: 102256, guid: 7ac7bff72558e4c4bb33b58802ba5262, type: 3}
-  paddlePrefab: {fileID: 162320, guid: a6c1f7ceae2d41e46a5f00c03d1e5de0, type: 3}
+  livesText: {fileID: 0}
+  gameOverText: {fileID: 0}
+  youWonText: {fileID: 0}
+  bricksPrefab: {fileID: 0}
+  deathParticles: {fileID: 0}
+  paddlePrefab: {fileID: 0}
 --- !u!114 &2123451026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,14 +1647,14 @@ MonoBehaviour:
   SourceFileGUID: 
   MajorVersion: 2
   MinorVersion: 0
-  BugFixVersion: 26
+  BugFixVersion: 28
   DisplayRoot: 0
-  SelectedObject: 87
-  SelectedObjectPosition: {x: 540.8395, y: -257.56458}
+  SelectedObject: 0
+  SelectedObjectPosition: {x: 696.0106, y: 426.17957}
   ShowDisplayRootNode: 1
-  GuiScale: 0.87785333
-  ScrollPosition: {x: 140.59058, y: -447.94843}
-  UndoRedoId: 2796
+  GuiScale: 0.5220841
+  ScrollPosition: {x: -506.06036, y: -444.51532}
+  UndoRedoId: 2809
   EngineObjects:
   - RawName: GameManager
     ObjectType: 0

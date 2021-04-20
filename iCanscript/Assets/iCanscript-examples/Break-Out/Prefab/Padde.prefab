@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 11434102}
   - component: {fileID: 11495142}
   m_Layer: 0
-  m_Name: Paddel
+  m_Name: Padde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   SourceFileGUID: 
   MajorVersion: 2
   MinorVersion: 0
-  BugFixVersion: 25
+  BugFixVersion: 28
   DisplayRoot: 0
   SelectedObject: 0
   SelectedObjectPosition: {x: 567.1879, y: 207.2146}
   ShowDisplayRootNode: 1
-  GuiScale: 1.3257966
-  ScrollPosition: {x: 4.079433, y: -80.6715}
-  UndoRedoId: 399
+  GuiScale: 1.0411812
+  ScrollPosition: {x: -192.30457, y: -185.44089}
+  UndoRedoId: 407
   EngineObjects:
   - RawName: Paddle
     ObjectType: 0
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 162320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34880b7dc759742ba8598e88f018cc50, type: 3}
+  m_Script: {fileID: 11500000, guid: 74c925b867d2a4da49a4cd1b56d34e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   paddleSpeed: 1
@@ -1477,7 +1477,7 @@ MonoBehaviour:
   SourceFileGUID: 
   MajorVersion: 2
   MinorVersion: 0
-  BugFixVersion: 25
+  BugFixVersion: 28
   DisplayRoot: 0
   SelectedObject: 3
   SelectedObjectPosition: {x: 658.79877, y: 382.07266}
@@ -2851,9 +2851,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 177586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8209fe15e55a142a4883139779200c20, type: 3}
+  m_Script: {fileID: 11500000, guid: ea4998bad5c5640c5815644f928780f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ballInPlay: 0
-  ballInitialVelocity: 400
+  ballInitialVelocity: 600
   parent: {fileID: 0}

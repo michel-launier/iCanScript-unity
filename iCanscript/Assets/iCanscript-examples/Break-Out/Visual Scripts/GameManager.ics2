@@ -9,18 +9,18 @@
     "MinorVersion" : 0,
     "BugFixVersion" : 28,
     "DisplayRoot" : 0,
-    "SelectedObject" : 73,
+    "SelectedObject" : 0,
     "SelectedObjectPosition" : {
-      "x" : 353.7388,
-      "y" : 622.638
+      "x" : 696.0106,
+      "y" : 426.1796
     },
     "ShowDisplayRootNode" : true,
-    "GuiScale" : 0.7865385,
+    "GuiScale" : 0.5220841,
     "ScrollPosition" : {
-      "x" : -691.181,
-      "y" : -44.66111
+      "x" : -506.0604,
+      "y" : -444.5153
     },
-    "UndoRedoId" : 2835,
+    "UndoRedoId" : 2809,
     "EngineObjects" : [
       {
         "RawName" : "GameManager",
@@ -124,7 +124,7 @@
         "ParentId" : 0,
         "QualifiedType" : "iCanScript.Internal.Engine.iCS_Package, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "LocalAnchorPosition" : {
-          "x" : -698.5429,
+          "x" : -662.0903,
           "y" : 402.8168
         },
         "DisplayOption" : {
@@ -1329,7 +1329,7 @@ verified.
         "IsEntryState" : false
       },
       {
-        "RawName" : "Setup Paddle",
+        "RawName" : "Setu Paddle",
         "ObjectType" : {
           "value__" : 101
         },
@@ -2171,7 +2171,7 @@ no lives left.
         "IsEntryState" : false
       },
       {
-        "RawName" : "Check Game Over - Package",
+        "RawName" : "Check Game Over-PAckage",
         "ObjectType" : {
           "value__" : 1
         },
@@ -2378,7 +2378,7 @@ no lives left.
         "NbOfParams" : 1,
         "IconGUID" : "",
         "Description" : "",
-        "LayoutPriority" : 95,
+        "LayoutPriority" : 97,
         "PortSpec" : {
           "value__" : 1000
         },
@@ -3370,7 +3370,7 @@ no lives left.
         "NbOfParams" : 1,
         "IconGUID" : "",
         "Description" : "",
-        "LayoutPriority" : 92,
+        "LayoutPriority" : 95,
         "PortSpec" : {
           "value__" : 1000
         },
@@ -3432,7 +3432,7 @@ no lives left.
         "NbOfParams" : 2,
         "IconGUID" : "",
         "Description" : "",
-        "LayoutPriority" : -3,
+        "LayoutPriority" : -2,
         "PortSpec" : {
           "value__" : 1000
         },
@@ -4000,7 +4000,7 @@ no lives left.
         "IsEntryState" : false
       },
       {
-        "RawName" : "Setu Paddle",
+        "RawName" : "SetuPaddle",
         "ObjectType" : {
           "value__" : 1
         },
@@ -4015,7 +4015,7 @@ no lives left.
           "value__" : 0
         },
         "NodeSpec" : {
-          "value__" : 400
+          "value__" : 1000
         },
         "MethodName" : "",
         "NbOfParams" : 0,

@@ -146,7 +146,6 @@ namespace iCanScript.Internal.Editor {
                 case 0: PackageList(); break;
                 case 1: CreatePackage(); break;
             }
-			Event.current.Use();
         }
 
         // =================================================================================
